@@ -41,5 +41,30 @@ body{
 }
 
 .box form .inputBox input{
-    
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    transition: 0.5s;
+    z-index: 10;
+}
+.box form .inputBox input:valid,
+.box form .inputBox input:focus{
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-24px);
+}
+.box form .inputBox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.7px;
+    background: #fff;
 }
