@@ -76,3 +76,31 @@ body{
 .box form .inputBox input:focus{
     height: 44px;
 }
+.box form .query{
+    display: flex;
+    justify-content: space-between;
+}
+.box form .query a{
+    text-decoration: none;
+    font-size: 0.75em;
+    color: #8f8f8f;
+    padding: 10px 8px;
+}
+.box form .query a:hover{
+    color: #fff;
+}
+.box form button[type="submit"]{
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    background: #fff;
+    cursor: pointer;
+    width: 150px;
+    font-size: 0.8em;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.box form button[type="submit"]:active{
+    opacity: 0.8;
+}
