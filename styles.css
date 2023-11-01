@@ -18,6 +18,9 @@ body{
     background: rgb(37, 33, 33);
     border-radius: 8px;
 }
+.box::before{
+    
+}
 .box form{
     position: absolute;
     background: black;
