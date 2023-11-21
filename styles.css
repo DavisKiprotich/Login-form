@@ -179,16 +179,28 @@ body{
     background: #fff;
     border-radius: 6px;
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0.1);
     text-align: center;
-    padding: 0 30px 30px;
+    padding: 0 15px 15px;
     color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    visibility: hidden;
 }
 
 .popup h2{
-    color: #23242a;
+    color: black;
     font-weight: 500;
     margin: 15px 0 5px;
+}
+.popup button{
+    width: 40%;
+    margin-top: 30px;
+    padding: 10px 0 ;
+    background: #45f3ff;
+    border: 0 transparent;
+    border-radius: px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 }
