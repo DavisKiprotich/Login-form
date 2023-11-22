@@ -23,13 +23,25 @@
           <a href="#">Register</a>
           <a href="#">Forgot password</a>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" onclick="openPopUp()">Submit</button>
       </form>
     </div>
     <div class="popup" id="popup">
       <h2>Thank You!</h2>
       <p>Your details have been submitted successfully</p>
-      <button type="button">OK</button>
+      <button type="button" onclick="closePopUp()">OK</button>
     </div>
+  <script>
+    let openPopUp = document.getElementById('popup');
+
+    function openPopUp(){
+      popup.classList.add('open-popup');
+    }
+
+    function closePopUp(){
+      popup.classList.remove('open-popup');
+    }
+
+  </script>
   </body>
 </html>
